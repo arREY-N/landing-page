@@ -1,0 +1,127 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.banner{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    height: 750px;
+}
+
+.information{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 18px;
+    text-align: center;
+    height: 600px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.logo p{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.banner-container{
+    margin-top: 180px;
+    display: flex;
+    padding: 0;
+}
+
+.banner-container div{
+    flex: 1;
+    margin: 0 5% 0 5%;
+}
+
+h1{
+    margin-bottom: 5px;
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+}
+
+.left-container button{
+    border: none;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 2% 6% 2% 6%;
+    margin-top: 10px;
+}
+
+.right-container{
+    background-color: grey;
+    display: grid;
+    place-items: center;
+}
+
+.desc-text{
+    font-size: 18ps;
+}
+
+.information h1{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 100px 0 70px 0;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes > div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    border: #3882f6 4px solid;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.statement{
+    display: flex;
+    place-items: center; 
+    flex-direction: column;  
+    justify-content: center; 
+}
+
+.quote{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 36px;
+    text-align: justify;
+    height: 300px;
+}
+
+.source{
+    color: #1f2937;
+    font-weight: 700;
+    font-size: 18px;
+}
