@@ -17,7 +17,7 @@
     padding-right: 10%;
     font-size: 18px;
     text-align: center;
-    height: 600px;
+    height: 500px;
 }
 
 .navigation{
@@ -98,8 +98,8 @@ h1{
 }
 
 .square{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     border: #3882f6 4px solid;
     border-radius: 10px;
     margin: 20px;
@@ -113,15 +113,60 @@ h1{
 }
 
 .quote{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 20vh;
     font-size: 36px;
     text-align: justify;
-    height: 300px;
+    background-color: #e5e7eb;
 }
 
 .source{
     color: #1f2937;
     font-weight: 700;
     font-size: 18px;
+    margin-right: 0;
+    text-align: right;
+}
+
+.cta{
+    margin: 10vh 15vh 10vh 15vh;
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 10px;
+    padding: 7vh 10vh 7vh 10vh;
+    justify-content: space-around;
+
+}
+
+.clickable{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.txt{
+    color: #e5e7eb;
+}
+
+.call{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.clickable > button{
+    color: #e5e7eb;
+    font-weight: bold;
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
+    padding: 5px 25px 5px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
 }
